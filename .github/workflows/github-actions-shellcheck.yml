@@ -2,7 +2,7 @@ name: GitHub Actions Shellcheck
 on: [push]
 jobs:
   shellcheck:
-    runs-on: ubuntu-last
+    runs-on: ubuntu-latest
     steps:
       - name: ShellCheck
         uses: ludeeus/action-shellcheck@2.0.0
