@@ -9,6 +9,6 @@ jobs:
       - name: ShellCheck
         uses: ludeeus/action-shellcheck@2.0.0
       - name: install write-good
-        uses: npm install -g write-good
+        run: npm install -g write-good
       - name: use write-good
         run: write-good *.md
