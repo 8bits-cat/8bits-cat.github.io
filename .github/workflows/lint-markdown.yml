@@ -13,8 +13,8 @@ jobs:
       uses: mshick/add-pr-comment@v1
       if: $
       with:
-        message: |
+          message: |
           $
-        repo-token: $
-        repo-token-user-login: 'github-actions[bot]' # The user.login for temporary GitHub tokens
-        allow-repeats: false # This is the default
+          repo-token: $
+          repo-token-user-login: 'github-actions[bot]' # The user.login for temporary GitHub tokens
+          allow-repeats: false # This is the default
