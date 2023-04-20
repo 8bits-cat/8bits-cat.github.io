@@ -17,7 +17,9 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: use write-good to checkout
-        run: npx write-good *.md
+        run: |
+          apt install npm
+          npx write-good *.md
 
       # Runs a set of commands using the runners shell
       - name: use proselint to checkout
