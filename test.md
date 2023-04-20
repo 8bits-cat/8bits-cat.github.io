@@ -1,1 +1,1 @@
- ssa oh i konw i m wrongs.
+ sa oh i konw i m wrongs.
